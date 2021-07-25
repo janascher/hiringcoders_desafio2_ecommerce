@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/css/styles.css">
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Sempre Bela</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="one-header" id="header">
+        <nav class="nav bd-grid">
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bxs-grid'></i>
+            </div>
+
+            <a href="#" class="nav_logo">SEMPRE BELA</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#promo" class="nav_link">Ofertas</a></li>
+                    <li class="nav_item"><a href="#maquiagem" class="nav_link"></a>Maquiagem</li>
+                    <li class="nav_item"><a href="#perfume" class="nav_link"></a>Perfume</li>
+                    <li class="nav_item"><a href="#corpobanho" class="nav_link"></a>Corpo e Banho</li>
+                    <li class="nav_item"><a href="#cabelo" class="nav_link"></a>Cabelo</li>
+                </ul>
+            </div>
+
+            <div class="nav_shop">
+                <p><small>0</small></p>
+                <i class='bx bx-shopping-bag'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="one-main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home_container bd-grid">
+                <div class="home_make">
+                    <div class="home_base"></div>
+                    <img src="src/assets/image/imghome.jpg" alt="Foto de três base bastão Nars" class="home_img"/>
+                </div>
+                
+                <div class="home_data">
+                    <span class="home_new">Novidade</span>
+                    <h1 class="home_title">Bastão Base Nars</h1>
+                    <p class="home_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="button">Confira Aqui</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promo -->
+        <section class="promo section" id="promo">
+            <h2 class="section-title">OFERTAS</h2>
+
+            <div class="promo_container bd-grid">
+                <article class="make">
+                    <div class="make_sale">Oferta</div>
+                    <img src="src/assets/image/promo1.png" alt="Foto produtos Nars" class="make_img"/>
+                    <span class="make_name">Máscara de Cílios Nars</span>
+                    <span class="make_price">R$ 85,00</span>
+                    <a href="#" class="button_light">COMPRAR<i class='bx bx-right-arrow-alt button-icon'></i></a>                      
+                </article>
+
+                <article class="make">
+                    <div class="make_sale">Oferta</div>
+                    <img src="src/assets/image/promo3.png" alt="Foto produtos Nars" class="make_img"/>
+                    <span class="make_name">Batom Lápis Nars</span>
+                    <span class="make_price">R$ 150,00</span>
+                    <a href="#" class="button_light">COMPRAR<i class='bx bx-right-arrow-alt button-icon'></i></a>
+                </article>
+
+                <article class="make">
+                    <div class="make_sale">Oferta</div>
+                    <img src="src/assets/image/promo2.png" alt="Foto produtos Nars" class="make_img"/>
+                    <span class="make_name">Base Bastão Nars</span>
+                    <span class="make_price">R$ 250,00</span>
+                    <a href="#" class="button_light">COMPRAR<i class='bx bx-right-arrow-alt button-icon'></i></a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Colletions -->
+        <section class="collection section">
+            <div class="collection_container bd-grid">
+                <div class="collection_card">
+                    <div class="collection_data">
+                        <h3 class="collection_name">NARS</h3>
+                        <p class="collection_description">Coleção 2021</p>
+                        <a href="#" class="button">Confira Aqui</a>
+                    </div>
+
+                    <img src="src/assets/image/collection1.png" alt="Foto de diversos produtos da Nars" class="collection_img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newletter section">
+            <div class="newletter_container bd-grid">
+                <div>
+                    <h3 class="newletter_title">CADASTRE-SE E GANHE <br> 10% OFF</h3>
+                    <p class="newletter_description">Ganhe 10% de desconto em toda a loja</p>
+                </div>
+
+                <form action="#" class="newletter_subscribe" id="newletter-subscribe" method="POST">
+                    <input type="text" placeholder="Nome" class="newletter_input" id="newletter-input-name" required/>
+                    <input type="text" placeholder="@email.com" class="newletter_input" id="newletter-input-email" required/>
+                    <input class="button" type="submit" value="CADASTRAR"/>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <section class="footer section">
+        <div class="footer_container bd-grid">
+            <div class="footer_box">
+                <h3 class="footer_title">REDES SOCIAIS</h3>
+                <a href="#" class="footer_social"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#" class="footer_social"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#" class="footer_social"><i class='bx bxl-google-plus-circle' ></i></a>
+            </div>
+
+            <div class="footer_box">
+                <h3 class="footer_title">QUEM SOMOS</h3>
+                <ul>
+                    <li><a href="#" class="footer_link"></a>Institucional</li>
+                    <li><a href="#" class="footer_link"></a>Loja Segura</li>
+                </ul>
+            </div>
+
+            <div class="footer_box">
+                <h3 class="footer_title">FALE COM A GENTE</h3>
+                <ul>
+                    <li><a href="#" class="footer_link"></a>(11) 1111-1111 <small>para todo Brasil</small></li>
+                    <li><a href="#" class="footer_link"></a>(22) 2 2222-2222 <small>whatsapp</small></li>
+                    <li><a href="#" class="footer_link"></a>sac@email.com.br</small></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer_copy">&copy; Developed by <a class="github" href="https://github.com/janascher" target="_blank">Janaína</a></p>
+    </section>
+
+    <!-- Main JS -->
+    <script src="src/js/main.js"></script>
+
+</body>
+</html>
